@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full bg-[#0a0b0e] text-zinc-100 antialiased selection:bg-zinc-200 selection:text-zinc-900">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Curated Collections — 1990oktexas</title>
+  
+  <!-- Google Fonts: Inter & Cormorant Garamond for editorial elegance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            serif: ['Cormorant Garamond', 'Georgia', 'serif'],
+          },
+          colors: {
+            obsidian: '#0a0b0e',
+            subtleCard: '#111318',
+            goldAccent: '#d4af37',
+            goldMuted: '#9e7d23',
+            emeraldMuted: '#10b981',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    * {
+      -webkit-tap-highlight-color: transparent;
+      box-sizing: border-box;
+    }
+    body {
+      background-color: #090a0d;
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(212, 175, 55, 0.035) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(16, 185, 129, 0.03) 0px, transparent 50%),
+        linear-gradient(180deg, rgba(255,255,255,0.015) 0%, transparent 100%);
+      background-attachment: fixed;
+    }
+    .fine-border {
+      border: 1px solid rgba(255, 255, 255, 0.07);
+    }
+    .fine-border-hover:hover {
+      border-color: rgba(255, 255, 255, 0.18);
+    }
+    .editorial-shadow {
+      box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.7);
+    }
+  </style>
+</head>
+<body class="min-h-full flex flex-col justify-between font-sans text-zinc-300">
+
+  <!-- Minimal Toast Notification -->
+  <div id="toast" class="fixed top-6 left-1/2 -translate-x-1/2 z-50 transform -translate-y-16 opacity-0 pointer-events-none transition-all duration-300 ease-out flex items-center gap-2.5 px-4 py-2 rounded-full bg-zinc-900/95 text-zinc-200 border border-zinc-700/60 shadow-xl backdrop-blur-md text-xs tracking-wide">
+    <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+    <span id="toast-message">Link copied to clipboard</span>
+  </div>
+
+  <!-- Refined Navigation Bar -->
+  <header class="w-full border-b border-white/[0.06] bg-[#090a0d]/80 backdrop-blur-md sticky top-0 z-40">
+    <div class="max-w-4xl mx-auto px-5 sm:px-8 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <!-- Monogram Seal -->
+        <div class="w-8 h-8 rounded-lg border border-zinc-700/80 bg-zinc-900 flex items-center justify-center text-zinc-200 font-serif text-sm font-semibold tracking-wider">
+          OK
+        </div>
+        <div>
+          <span class="text-xs uppercase tracking-[0.2em] font-medium text-zinc-400 block leading-tight">Archive Registry</span>
+          <span class="text-[11px] text-zinc-400 font-mono">1990oktexas</span>
+        </div>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="inline-flex items-center gap-1.5 text-[11px] tracking-wider uppercase text-zinc-400 bg-zinc-900/80 px-2.5 py-1 rounded-full border border-white/[0.06]">
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-400/80"></span>
+          Two Exhibits
+        </span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Showcase Section -->
+  <main class="max-w-4xl mx-auto px-5 sm:px-8 py-10 sm:py-16 flex-grow w-full flex flex-col justify-center">
+    
+    <!-- Editorial Header -->
+    <div class="max-w-xl mx-auto text-center mb-10 sm:mb-14">
+      <span class="text-[10px] sm:text-xs uppercase tracking-[0.25em] text-zinc-400 font-semibold mb-3 block">
+        Private Exhibition Index
+      </span>
+      <h1 class="text-3xl sm:text-4xl md:text-5xl font-serif font-normal tracking-tight text-zinc-100 leading-tight">
+        Curated Collections
+      </h1>
+      <p class="text-xs sm:text-sm text-zinc-400 mt-3 font-light leading-relaxed">
+        Select a dedicated portal to view cataloged fluorescent depression glassware or comprehensive Amazonian superhero memorabilia.
+      </p>
+    </div>
+
+    <!-- Collection Cards Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-7 items-stretch">
+
+      <!-- ================= COLLECTION 1: Uranium Catalog ================= -->
+      <article class="group rounded-2xl bg-[#0f1116] fine-border fine-border-hover p-6 sm:p-8 flex flex-col justify-between transition-all duration-300 hover:bg-[#13161c] editorial-shadow relative overflow-hidden">
+        
+        <!-- Subtle accent indicator -->
+        <div class="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-emerald-500/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+
+        <div>
+          <!-- Meta Header -->
+          <div class="flex items-center justify-between text-[11px] font-mono text-zinc-400 uppercase tracking-widest mb-6">
+            <span>Archive No. 01</span>
+            <span class="text-emerald-400/80 flex items-center gap-1 font-sans text-[10px] tracking-wider border border-emerald-500/20 px-2 py-0.5 rounded">
+              UV 395nm
+            </span>
+          </div>
+
+          <!-- Title & Subtitle -->
+          <div class="mb-4">
+            <h2 class="text-2xl sm:text-3xl font-serif text-zinc-100 group-hover:text-emerald-300 transition-colors duration-200">
+              Uranium Catalog
+            </h2>
+            <p class="text-[11px] font-mono text-zinc-400 mt-1 truncate">
+              1990oktexas.github.io/uranium-catalog
+            </p>
+          </div>
+
+          <!-- Synopsis -->
+          <p class="text-xs sm:text-[13px] text-zinc-400 leading-relaxed font-light mb-6">
+            A specialized survey of antique Vaseline glassware, Depression-era green pressings, fluorescent minerals, and Geiger radiation documentation under ultraviolet light.
+          </p>
+
+          <!-- Categorical Specs -->
+          <div class="flex flex-wrap gap-1.5 mb-8">
+            <span class="text-[10px] tracking-wider uppercase text-zinc-400 bg-zinc-900/90 px-2.5 py-1 rounded border border-white/[0.04]">Vaseline Glass</span>
+            <span class="text-[10px] tracking-wider uppercase text-zinc-400 bg-zinc-900/90 px-2.5 py-1 rounded border border-white/[0.04]">Depression Era</span>
+            <span class="text-[10px] tracking-wider uppercase text-zinc-400 bg-zinc-900/90 px-2.5 py-1 rounded border border-white/[0.04]">Fluorescence</span>
+          </div>
+        </div>
+
+        <!-- Action Row -->
+        <div class="pt-5 border-t border-white/[0.06] flex items-center gap-2.5">
+          <!-- Primary Gateway Link -->
+          <a href="https://1990oktexas.github.io/uranium-catalog/" 
+             target="_blank" 
+             rel="noopener noreferrer" 
+             class="flex-1 py-3 px-4 rounded-xl bg-zinc-100 hover:bg-white text-zinc-950 text-xs font-medium tracking-wide flex items-center justify-center gap-2 transition active:scale-[0.98] shadow-sm">
+            <span>Explore Collection</span>
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+            </svg>
+          </a>
+
+          <!-- Minimal Copy Button -->
+          <button onclick="copyToClipboard('https://1990oktexas.github.io/uranium-catalog/')" 
+                  title="Copy Direct Link" 
+                  aria-label="Copy Uranium Catalog URL"
+                  class="p-3 rounded-xl bg-zinc-900/80 hover:bg-zinc-800 text-zinc-400 hover:text-zinc-200 border border-white/[0.06] transition active:scale-95">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"/>
+            </svg>
+          </button>
+        </div>
+      </article>
+
+      <!-- ================= COLLECTION 2: Wonder Woman ================= -->
+      <article class="group rounded-2xl bg-[#0f1116] fine-border fine-border-hover p-6 sm:p-8 flex flex-col justify-between transition-all duration-300 hover:bg-[#13161c] editorial-shadow relative overflow-hidden">
+        
+        <!-- Subtle accent indicator -->
+        <div class="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-amber-500/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+
+        <div>
+          <!-- Meta Header -->
+          <div class="flex items-center justify-between text-[11px] font-mono text-zinc-400 uppercase tracking-widest mb-6">
+            <span>Archive No. 02</span>
+            <span class="text-amber-400/80 flex items-center gap-1 font-sans text-[10px] tracking-wider border border-amber-500/20 px-2 py-0.5 rounded">
+              DC Canon
+            </span>
+          </div>
+
+          <!-- Title & Subtitle -->
+          <div class="mb-4">
+            <h2 class="text-2xl sm:text-3xl font-serif text-zinc-100 group-hover:text-amber-300 transition-colors duration-200">
+              Wonder Woman
+            </h2>
+            <p class="text-[11px] font-mono text-zinc-400 mt-1 truncate">
+              1990oktexas.github.io/wonder-woman-collection
+            </p>
+          </div>
+
+          <!-- Synopsis -->
+          <p class="text-xs sm:text-[13px] text-zinc-400 leading-relaxed font-light mb-6">
+            An extensive retrospective celebrating Diana of Themyscira, presenting classic comic run histories, vintage statues, collector figures, and historical memorabilia.
+          </p>
+
+          <!-- Categorical Specs -->
+          <div class="flex flex-wrap gap-1.5 mb-8">
+            <span class="text-[10px] tracking-wider uppercase text-zinc-400 bg-zinc-900/90 px-2.5 py-1 rounded border border-white/[0.04]">Comic Books</span>
+            <span class="text-[10px] tracking-wider uppercase text-zinc-400 bg-zinc-900/90 px-2.5 py-1 rounded border border-white/[0.04]">Statuettes</span>
+            <span class="text-[10px] tracking-wider uppercase text-zinc-400 bg-zinc-900/90 px-2.5 py-1 rounded border border-white/[0.04]">Ephemera</span>
+          </div>
+        </div>
+
+        <!-- Action Row -->
+        <div class="pt-5 border-t border-white/[0.06] flex items-center gap-2.5">
+          <!-- Primary Gateway Link -->
+          <a href="https://1990oktexas.github.io/wonder-woman-collection/" 
+             target="_blank" 
+             rel="noopener noreferrer" 
+             class="flex-1 py-3 px-4 rounded-xl bg-zinc-100 hover:bg-white text-zinc-950 text-xs font-medium tracking-wide flex items-center justify-center gap-2 transition active:scale-[0.98] shadow-sm">
+            <span>Explore Collection</span>
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+            </svg>
+          </a>
+
+          <!-- Minimal Copy Button -->
+          <button onclick="copyToClipboard('https://1990oktexas.github.io/wonder-woman-collection/')" 
+                  title="Copy Direct Link" 
+                  aria-label="Copy Wonder Woman Collection URL"
+                  class="p-3 rounded-xl bg-zinc-900/80 hover:bg-zinc-800 text-zinc-400 hover:text-zinc-200 border border-white/[0.06] transition active:scale-95">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"/>
+            </svg>
+          </button>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- Direct Quick Links Footnote -->
+    <div class="mt-10 pt-6 border-t border-white/[0.05] flex flex-col sm:flex-row items-center justify-between text-[11px] text-zinc-400 gap-3">
+      <span class="tracking-wide text-zinc-400">Direct URL access:</span>
+      <div class="flex flex-wrap items-center justify-center gap-3">
+        <a href="https://1990oktexas.github.io/uranium-catalog/" class="hover:text-zinc-200 transition underline underline-offset-4 decoration-zinc-800">uranium-catalog</a>
+        <span class="text-zinc-800">&bull;</span>
+        <a href="https://1990oktexas.github.io/wonder-woman-collection/" class="hover:text-zinc-200 transition underline underline-offset-4 decoration-zinc-800">wonder-woman-collection</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Editorial Footer -->
+  <footer class="w-full border-t border-white/[0.05] bg-[#090a0d] py-6 px-5 sm:px-8">
+    <div class="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between text-xs text-zinc-400 gap-3">
+      <p class="font-serif italic text-zinc-400 text-sm">
+        Archival Vault &bull; Curated by 1990oktexas
+      </p>
+      <div class="flex items-center gap-4">
+        <a href="https://github.com/1990oktexas" target="_blank" rel="noopener noreferrer" class="hover:text-zinc-300 transition text-[11px] uppercase tracking-widest font-mono">
+          GitHub Registry &nearr;
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Clean, Non-blocking Clipboard Logic -->
+  <script>
+    function copyToClipboard(url) {
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(url)
+          .then(showNotice)
+          .catch(function() { fallbackCopy(url); });
+      } else {
+        fallbackCopy(url);
+      }
+    }
+
+    function fallbackCopy(text) {
+      var textArea = document.createElement("textarea");
+      textArea.value = text;
+      textArea.style.position = "fixed";
+      textArea.style.left = "-999999px";
+      textArea.style.top = "-999999px";
+      document.body.appendChild(textArea);
+      textArea.focus();
+      textArea.select();
+      try {
+        document.execCommand('copy');
+        showNotice();
+      } catch (e) {
+        console.error('Copy execution failed', e);
+      }
+      document.body.removeChild(textArea);
+    }
+
+    function showNotice() {
+      var toast = document.getElementById('toast');
+      toast.classList.remove('opacity-0', '-translate-y-16', 'pointer-events-none');
+      toast.classList.add('opacity-100', 'translate-y-0');
+
+      setTimeout(function() {
+        toast.classList.remove('opacity-100', 'translate-y-0');
+        toast.classList.add('opacity-0', '-translate-y-16', 'pointer-events-none');
+      }, 2200);
+    }
+  </script>
+</body>
+</html>
